@@ -170,8 +170,8 @@
     .main-img > img {
         right: -144px;
         z-index: -1;
-        width: 450px;
-        top: 119px;
+        width: 400px;
+        top: 208px;
     }
 
     .statisc-one:before {

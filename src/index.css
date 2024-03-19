@@ -1,5 +1,3 @@
-@import url("brackpoint.css");
-
 html,
 body {
     margin: 0;
@@ -17,9 +15,15 @@ p {
 body {
     background-image: url("./assets/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     font-family: "Raleway", "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
+    overflow-x: hidden;
+}
+
+@media (max-width: 575px) {
+    body {
+        overflow-x: hidden;
+    }
 }
