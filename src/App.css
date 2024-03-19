@@ -1,0 +1,147 @@
+@import url("brackpoint.css");
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* modal form  styles */
+
+h5 {
+    color: #fff;
+    width: 490px;
+    height: 148px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 148.8%;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    align-items: self-start;
+}
+
+form > div > input {
+    height: 36px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+form > .form-name {
+    width: 100%;
+}
+
+form > div > input:focus {
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+form > div > input::placeholder {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 122.8%;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.6;
+}
+
+form > div > input:focus {
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.form-name > input {
+    width: 480px;
+}
+
+.form-phone > input {
+    width: 480px;
+}
+
+.form-checxbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.form-checxbox > input {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.form-checxbox > p {
+    width: 342px;
+    height: 42px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128.8%;
+    letter-spacing: 0.035em;
+    color: #ffffff;
+}
+
+.close {
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+}
+
+.thank_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    position: relative;
+}
+
+.title__thank {
+    width: 227px;
+    height: 158px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 157.8%;
+
+    color: #ffffff;
+}
+
+.thank__text {
+    width: 447px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 145%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.img_thank {
+    position: absolute;
+    top: 579px;
+    right: 110px;
+}
+
+.close_thank {
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+    top: -108px;
+}

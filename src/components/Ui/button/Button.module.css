@@ -1,0 +1,75 @@
+.button {
+    position: relative;
+    width: auto;
+    min-width: 380px;
+    height: 71px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #07305d;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 112px;
+}
+
+.button > p {
+    margin-left: -37px;
+}
+
+.free {
+    background: transparent;
+    color: #fff;
+}
+
+.line_img {
+    position: absolute;
+    right: 62px;
+    top: -2px;
+}
+
+.line_two {
+    position: absolute;
+    right: 62px;
+    top: -2px;
+}
+
+@media (max-width: 575.98px) {
+    .button {
+        margin-bottom: 0;
+        height: 40px;
+        min-width: 220px;
+    }
+
+    .line_img {
+        height: 40px;
+    }
+
+    .line_two {
+        height: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .button {
+        margin-bottom: 0px;
+        min-width: 267px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .button::after {
+        left: 88px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .button {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .button {
+        margin-bottom: 0px;
+    }
+}

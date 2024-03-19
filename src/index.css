@@ -1,0 +1,25 @@
+@import url("brackpoint.css");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Raleway", "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
