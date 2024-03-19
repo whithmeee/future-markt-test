@@ -81,7 +81,7 @@ function App() {
                 <span onClick={() => toggleModal(false)} className="close">
                     <img src={close} alt="close" />
                 </span>
-                <h5>Закажите обратный звонок</h5>
+                <h5 className="modal-title">Закажите обратный звонок</h5>
 
                 <form onSubmit={sendForm}>
                     <div className="form-name">

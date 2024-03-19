@@ -1,7 +1,6 @@
 .button {
     position: relative;
-    width: auto;
-    min-width: 380px;
+    width: 380px;
     height: 71px;
     background: #ffffff;
     border: 1px solid #ffffff;
@@ -37,7 +36,7 @@
     .button {
         margin-bottom: 0;
         height: 40px;
-        min-width: 220px;
+        width: 220px;
     }
 
     .line_img {
@@ -52,7 +51,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .button {
         margin-bottom: 0px;
-        min-width: 267px;
+        width: 267px;
     }
 }
 

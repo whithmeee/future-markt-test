@@ -1,5 +1,3 @@
-@import url("brackpoint.css");
-
 .container {
     width: 100%;
     max-width: 1320px;
@@ -144,4 +142,18 @@ form > div > input:focus {
     cursor: pointer;
     right: 30px;
     top: -108px;
+}
+
+@media (max-width: 575.98px) {
+    h5 {
+        font-size: 37px;
+    }
+
+    .form-name > input {
+        width: 340px;
+    }
+
+    .form-phone > input {
+        width: 340px;
+    }
 }
