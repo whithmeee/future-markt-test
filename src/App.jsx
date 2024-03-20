@@ -4,6 +4,7 @@ import Modal from "./components/Ui/modal/Modal";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Button from "./components/Ui/button/Button";
+import arrowWhite from "./assets/arrow_white.png";
 import imageSrc1 from "./assets/Line 168.png";
 import close from "./assets/close.png";
 
@@ -122,10 +123,11 @@ function App() {
                     </div>
 
                     <Button
+                        arrowWhite={arrowWhite}
                         imageSrc1={imageSrc1}
                         isFree={true}
                         onClick={sendForm}
-                        children={"Заказать обратный звонок"}
+                        children={"Заказать"}
                     />
                 </form>
             </Modal>

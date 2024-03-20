@@ -32,6 +32,24 @@
     top: -2px;
 }
 
+.img_white {
+    position: absolute;
+    right: 13px;
+    top: 43px;
+    width: 16px;
+}
+
+.img_one {
+    position: absolute;
+    right: 13px;
+    top: 43px;
+    width: 16px;
+}
+
+.img_white:hover {
+    transform: scale(-10px);
+}
+
 @media (max-width: 575.98px) {
     .button {
         margin-bottom: 0;

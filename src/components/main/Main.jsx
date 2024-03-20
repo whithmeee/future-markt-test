@@ -80,11 +80,13 @@ const Main = ({ toggleModal }) => {
                 <p className={styles["main-description"]}>{textDescription}</p>
                 <div className={styles["main-buttons"]}>
                     <Button
+                        arrowOne={arrowOne}
                         imageSrc2={imageSrc2}
                         children={textMessen}
                     ></Button>
                     <Button
                         imageSrc1={imageSrc1}
+                        arrowWhite={arrowWhite}
                         toggleModal={toggleModal}
                         isFree={true}
                         children={getTextMessen}
