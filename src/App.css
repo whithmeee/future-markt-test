@@ -147,13 +147,36 @@ form > div > input:focus {
 @media (max-width: 575.98px) {
     h5 {
         font-size: 37px;
+        width: 322px;
     }
 
     .form-name > input {
-        width: 340px;
+        width: 300px;
     }
 
     .form-phone > input {
-        width: 340px;
+        width: 300px;
+    }
+
+    .title__thank {
+        width: 221px;
+        font-size: 34px;
+    }
+
+    .thank__text {
+        width: 283px;
+        font-size: 28px;
+    }
+
+    .close_thank {
+        right: 75px;
+    }
+
+    .close {
+        right: 77px;
+    }
+
+    .form-checxbox > p {
+        width: 240px;
     }
 }
